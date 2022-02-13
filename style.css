@@ -1,0 +1,96 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+a{
+    text-decoration:none;
+    color: #ffffff;
+}
+body{
+    background-image: url(https://s-sd.ru/images/cms/thumbs/a5b0aeaa3fa7d6e58d75710c18673bd7ec6d5f6d/animfon_1920_1031_jpg_0_100.jpg);
+    /* background-color: #fcabab; */
+    color: white;
+    font-size: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-text{
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-submit{
+    width: 200px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.list-of-questions{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.unvisible{
+    /* visibility: hidden; */
+    display: none;
+}
+
+/* Hover, Focus */
+
+/* link:hover,
+link:focus{
+    color: black;
+} */
+
+/* q1 */
+.q-n-1{
+}
+.q1-img-class{
+    max-width: 600px;
+}
+
+/* q2 */
+
+.video-q2{
+    /* max-width: 800px ; */
+}
+
+/* q3 */
+
+.q3-img-class{
+    max-width: 600px;    
+    display: flex;
+    flex-direction: column;
+}
+
+/* q4 */
+.q4-img-class{
+    max-width: 600px;  
+}
+
+/* q5 */
+.counter{
+    font-size: 30px;
+}
+
+.text-q5{
+    max-width: 600px;
+}
